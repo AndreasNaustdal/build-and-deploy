@@ -85,10 +85,13 @@ module.exports = function (grunt) {
 
   var jshintConfig = {
     default: {
-      files: [
+      src: [
         'src/calcApp.module.js',
         'src/calcCtrl.js'
-      ]
+      ],
+      options: {
+        jshintrc: true
+      }
     }
   };
 

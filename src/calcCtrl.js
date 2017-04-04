@@ -13,30 +13,31 @@
     vm.oper = 'plus';
 
     function calculate(firstArg, secondArg, operator){
+      var result;
       if(operator === 'plus'){
-        var result = firstArg + secondArg;
+        result = firstArg + secondArg;
         vm.result = result;
       }
       else if (operator === 'minus'){
-        var result = firstArg - secondArg;
+        result = firstArg - secondArg;
         vm.result = result;
       }
       else if (operator === 'divide'){
         if (secondArg !== 0){
-          var result = firstArg / secondArg;
+          result = firstArg / secondArg;
           vm.result = result;
         }
         else {
-          vm.result = 'Cannot divide by zero'
+          vm.result = 'Cannot divide by zero';
         }
       }
       else if (operator === 'multiply') {
-        var result = firstArg * secondArg;
+        result = firstArg * secondArg;
         vm.result = result;
       }
       else {
         vm.result = 'Operator not implemented';
       }
     }
-  };
+  }
 }());
