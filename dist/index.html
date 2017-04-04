@@ -11,6 +11,7 @@
 <div ng-controller="calcCtrl as vm" class="container col-lg-6 col-lg-offset-3">
     <h1>Calculator</h1>
 
+    <div ng-repeat="i in [0:20]">
     <form class="row form-group" name="form" role="form">
         <label for="firstArg">
             First argument
@@ -36,6 +37,7 @@
             Calculate
         </button>
     </form>
+    </div>
 
     <div class="row panel panel-default">
         <div class="panel-heading">
