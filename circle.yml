@@ -13,4 +13,4 @@ deployment:
  prod:
    branch: master
    heroku:
-     appname: andreas-build-and-deploy
+     appname: finn-fuglen

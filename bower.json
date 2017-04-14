@@ -1,17 +1,14 @@
 {
-  "name": "build-and-deploy",
+  "name": "finn-fuglen",
   "version": "1.0.0",
   "homepage": "https://github.com/nerdschoolbergen/build-and-deploy",
-  "description": "continuous deployment of simple javascript application",
+  "description": "Finn fuglen",
   "authors": [
-    "Eirik Bell"
+    "Andreas Naustdal"
   ],
-  "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "jquery": "~2.2.1",
-    "bootstrap": "~3.3.6",
-    "angular": "~1.5.0",
-    "angular-mocks": "~1.5.0"
-  }
+  "keywords": [
+    "fugl"
+  ],
+  "homepage": "https://github.com/AndreasNaustdal/finn-fuglen",
+  "private": true
 }

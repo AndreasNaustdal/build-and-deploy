@@ -6,7 +6,7 @@ module.exports = function (grunt) {
   var sassConfig = {
     default: {
       files: {
-        'src/calcApp.css': 'src/calcApp.scss'
+        'src/finnFuglen.css': 'src/finnFuglen.scss'
       }
     }
   };
@@ -18,12 +18,12 @@ module.exports = function (grunt) {
           'bower_components/jquery/dist/jquery.js',
           'bower_components/bootstrap/dist/js/bootstrap.js',
           'bower_components/angular/angular.js',
-          'src/calcApp.module.js',
-          'src/calcCtrl.js'
+          'src/finnFuglen.module.js',
+          'src/fuglCtrl.js'
         ],
         'src/style.css': [
           'bower_components/bootstrap/dist/css/bootstrap.css',
-          'src/calcApp.css'
+          'src/finnFuglen.css'
         ]
       }
     }
@@ -71,8 +71,8 @@ module.exports = function (grunt) {
           'bower_components/jquery/dist/jquery.js',
           'bower_components/angular/angular.js',
           'bower_components/angular-mocks/angular-mocks.js',
-          'src/calcApp.module.js',
-          'src/calcCtrl.js',
+          'src/finnFuglen.module.js',
+          'src/fuglCtrl.js',
           'test/**/*.js'
         ],
         singleRun: true,
@@ -86,8 +86,8 @@ module.exports = function (grunt) {
   var jshintConfig = {
     default: {
       src: [
-        'src/calcApp.module.js',
-        'src/calcCtrl.js'
+        'src/finnFuglen.module.js',
+        'src/fuglCtrl.js'
       ],
       options: {
         jshintrc: true
